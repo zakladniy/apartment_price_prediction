@@ -1,0 +1,15 @@
+rule extract_data:
+    input:
+        #TODO
+    output:
+        #TODO
+    shell:
+        #TODO
+
+rule create_features:
+    input:
+        #TODO
+    output:
+        #TODO
+    shell:
+        #TODO

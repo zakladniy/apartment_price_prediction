@@ -26,6 +26,8 @@ Project for apartment price prediction in Saint-Petersburg includes:
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
+    │── workflow           <- Workflow management, for creation reproducible and scalable data analyses
+    │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.

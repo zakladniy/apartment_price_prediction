@@ -1,13 +1,12 @@
 """Tools for extract data from CIAN by API."""
-from collections import defaultdict
 from datetime import datetime
-from typing import Union, Any, List, Tuple, Optional, Dict
+from typing import Union, Any, List, Optional, Dict
 
 import requests
 from nested_lookup import nested_lookup
 
-from cian_config import headers, api_url
-from cian_html import get_data_from_html
+from .cian_config import headers, api_url
+from .cian_html import get_data_from_html
 
 
 def nested_check(key: str, source_dict: dict) -> Optional[Any]:

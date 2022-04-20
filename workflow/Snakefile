@@ -1,15 +1,5 @@
 rule extract_data:
-    input:
-        #TODO
     output:
-        #TODO
+        "data/external/data_raw.csv"
     shell:
-        #TODO
-
-rule create_features:
-    input:
-        #TODO
-    output:
-        #TODO
-    shell:
-        #TODO
+        "python -m src.data.make_dataset {output}"

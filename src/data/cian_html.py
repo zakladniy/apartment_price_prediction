@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from fake_headers import Headers
 
-from cian_config import base_url, headers, target_params
+from .cian_config import base_url, headers, target_params
 
 
 def get_apartment_info_from_string(param: str, target_string: str) -> str:

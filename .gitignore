@@ -7,6 +7,9 @@ notebooks/runs
 
 info_api.log
 
+# Snakemake
+.snakemake
+
 # Logs
 *.log
 # Volume

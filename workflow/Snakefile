@@ -1,18 +1,18 @@
 rule all:
     input:
-        "data/external/data_raw.csv",
-        "data/interim/data_processed.csv"
+        "data/raw/data_raw.csv",
+        "data/interim/data_interim.csv"
 
 rule extract_data:
     output:
-        "data/external/data_raw.csv"
+        "data/raw/data_raw.csv"
     shell:
         "python -m src.data.make_dataset {output}"
 
 rule transform_data:
     input:
-        "data/external/data_raw.csv"
+        "data/raw/data_raw.csv"
     output:
-        "data/interim/data_processed.csv"
+        "data/interim/data_interim.csv"
     shell:
         "python -m src.data.transform_dataset {input} {output}"

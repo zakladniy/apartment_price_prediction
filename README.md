@@ -3,10 +3,10 @@
 
 ## Description
 Project for apartment price prediction in Saint-Petersburg includes:
- - pipeline and scripts for create dataset
+ - pipeline for create all datasets
  - EDA
  - feature engineering
- - create model
+ - pipeline for create model
 
 
 ## Project Organization
